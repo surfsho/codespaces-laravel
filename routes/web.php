@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\WeatherController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +15,4 @@ use App\Http\Controllers\WelcomeController;
 */
 //route to index page
 Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/weather', [WeatherController::class, 'index']);

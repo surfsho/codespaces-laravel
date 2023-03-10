@@ -102,10 +102,10 @@ margin: 10px;
     <div class="text">
     <ul class="nav flex-column">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Appointments</a>
+    <a class="nav-link active" href="/">Appointments</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Patients</a>
+    <a class="nav-link" href="/weather">Patients</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Insurance</a>
